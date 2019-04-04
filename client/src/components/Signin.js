@@ -23,7 +23,7 @@ export default class SignIn extends React.Component {
       .catch(error => {
         console.log(error);
       });
-    this.props.history.push("/");
+    this.props.history.push("/users");
   };
 
   render() {
